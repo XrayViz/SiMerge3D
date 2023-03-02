@@ -1,0 +1,2 @@
+export LD_RUN_PATH=/home/yefanov/lib/hdf5/lib
+icc2013 -I/home/yefanov/lib/hdf5/include/ -L/home/yefanov/lib/hdf5/lib/ -lhdf5 --openmp -w simerge.cpp -o simerge
